@@ -143,13 +143,13 @@ Here is the method:</p>
 		<pubDate>Sat, 20 Apr 2019 09:57:52 +0000</pubDate>
 				<guid isPermaLink="false">http://doxy-tester.designingmarket.com/question/how-to-fix-w3-validation-error/</guid>
 
-					<description><![CDATA[When you write a post, you can assign tags to help differentiate between categories of content. For example, you might tag some posts with News and other posts with Cycling, which would create two distinct categories of content listed &#60;ul id="navigation-menu" class="slimmenu"&#62; &#60;li class="has-submenu"&#62;&#60;a href="index.html"&#62;Home&#60;/a&#62; &#60;ul&#62; &#60;li&#62;&#60;a href="index.html"&#62;Home 1&#60;/a&#62;&#60;/li&#62; &#60;li&#62;&#60;a href="index2.html"&#62;Home 2&#60;/a&#62;&#60;/li&#62; &#60;/ul&#62; &#60;/li&#62; &#60;li&#62;&#60;a href="about.html"&#62;About&#60;/a&#62;&#60;/li&#62; &#60;li class="has-submenu"&#62; [&#8230;]]]></description>
+					<description><![CDATA[When you write a post, you can assign tags to help differentiate between categories of content. For example, you might tag some posts with News and other posts with Cycling, which would create two distinct categories of content listed &#60;ul id="navigation-menu" class="slimmenu"&#62; &#60;li class="has-submenu"&#62;&#60;a href="/"&#62;Home&#60;/a&#62; &#60;ul&#62; &#60;li&#62;&#60;a href="/"&#62;Home 1&#60;/a&#62;&#60;/li&#62; &#60;li&#62;&#60;a href="index2.html"&#62;Home 2&#60;/a&#62;&#60;/li&#62; &#60;/ul&#62; &#60;/li&#62; &#60;li&#62;&#60;a href="about.html"&#62;About&#60;/a&#62;&#60;/li&#62; &#60;li class="has-submenu"&#62; [&#8230;]]]></description>
 										<content:encoded><![CDATA[<p>When you write a post, you can assign tags to help differentiate between categories of content. For example, you might tag some posts with <code>News</code> and other posts with <code>Cycling</code>, which would create two distinct categories of content listed</p>
 <pre><code class="language-html">
 &lt;ul id="navigation-menu" class="slimmenu"&gt;
-&lt;li class="has-submenu"&gt;&lt;a href="index.html"&gt;Home&lt;/a&gt;
+&lt;li class="has-submenu"&gt;&lt;a href="/"&gt;Home&lt;/a&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="index.html"&gt;Home 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="/"&gt;Home 1&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="index2.html"&gt;Home 2&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
