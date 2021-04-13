@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ghost Theme &#8211; Doxy</title>
+	<atom:link href="https://wp-doxy.themeix.com/doc-category/ghost-theme/feed/" rel="self" type="application/rss+xml" />
+	<link>https://wp-doxy.themeix.com</link>
+	<description>A multipurpose WordPress theme</description>
+	<lastBuildDate>Mon, 04 May 2020 09:47:51 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6.2</generator>
+	<item>
+		<title>Axotic Ghost Theme</title>
+		<link>https://wp-doxy.themeix.com/docs/axotic-ghost-theme/</link>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Wed, 20 Mar 2019 08:36:41 +0000</pubDate>
+				<guid isPermaLink="false">http://doxy-wp.themeix.com/?post_type=docs&#038;p=834</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Arnica Ghost Theme</title>
+		<link>https://wp-doxy.themeix.com/docs/arnica-ghost-theme/</link>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Fri, 15 Mar 2019 06:04:38 +0000</pubDate>
+				<guid isPermaLink="false">http://doxy-wp.themeix.com/?post_type=docs&#038;p=802</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

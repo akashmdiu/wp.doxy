@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Travel &#8211; Doxy</title>
+	<atom:link href="https://wp-doxy.themeix.com/category/travel/feed/" rel="self" type="application/rss+xml" />
+	<link>https://wp-doxy.themeix.com</link>
+	<description>A multipurpose WordPress theme</description>
+	<lastBuildDate>Mon, 25 Mar 2019 11:00:10 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6.2</generator>
+	<item>
+		<title>Endangered leatherback sea turtle spotted off B.C. coast</title>
+		<link>https://wp-doxy.themeix.com/endangered-leatherback-sea-turtle-spotted-off-b-c-coast/</link>
+					<comments>https://wp-doxy.themeix.com/endangered-leatherback-sea-turtle-spotted-off-b-c-coast/#comments</comments>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Mon, 25 Mar 2019 11:00:10 +0000</pubDate>
+				<category><![CDATA[Travel]]></category>
+		<category><![CDATA[documentation]]></category>
+		<guid isPermaLink="false">https://doxy-wp.themeix.com/?p=1038</guid>
+
+					<description><![CDATA[
+				
+				When you go to edit a post and see special characters and colours intertwined between the words, those are Markdown shortcuts which tell Ghost what to do with the words				]]></description>
+										<content:encoded><![CDATA[
+				
+				
+<p class="has-drop-cap">When you go to edit a post and see special characters and colours intertwined between the words, those are Markdown shortcuts which tell Ghost what to do with the words in your document. The biggest benefit of Markdown is that you can quickly apply formatting as you type, without needing to pause.</p>
+
+
+
+<p>At the bottom of the editor, you’ll find a toolbar with basic formatting options to help you get started as easily as possible. You’ll also notice that there’s a&nbsp;<strong>?</strong>&nbsp;icon, which contains more advanced shortcuts.</p>
+
+
+
+<p>For now, though, let’s run you through some of the basics. You’ll want to make sure you’re editing this post in order to see all the Markdown we’ve used.</p>
+
+
+
+<h2 id="formattingtext">Formatting text</h2>
+
+
+
+<p>The most common shortcuts are of course,&nbsp;<strong>bold</strong>&nbsp;text,&nbsp;<em>italic</em>&nbsp;text, and&nbsp;<a href="https://example.com/">hyperlinks</a>. These generally make up the bulk of any document. You can type the characters out, but you can also use keyboard shortcuts.</p>
+
+
+
+<ul><li><code>CMD/Ctrl + B</code>&nbsp;for Bold</li><li><code>CMD/Ctrl + I</code>&nbsp;for Italic</li><li><code>CMD/Ctrl + K</code>&nbsp;for a Link</li><li><code>CMD/Ctrl + H</code>&nbsp;for a Heading (Press multiple times for h2/h3/h4/etc)</li></ul>
+
+
+
+<p>With just a couple of extra characters here and there, you’re well on your way to creating a beautifully formatted story.</p>
+
+
+
+<h2 id="insertingimages">Inserting images</h2>
+
+
+
+<p>Images in Markdown look just the same as links, except they’re prefixed with an exclamation mark, like this:</p>
+
+
+
+<p><code>![Image description](/path/to/image.jpg)</code></p>
+
+
+
+<figure class="wp-block-image"><img src="https://casper.ghost.org/v1.0.0/images/computer.jpg" alt="Computer"/></figure>
+
+
+
+<p>Most Markdown editors don’t make you type this out, though. In Ghost you can click on the image icon in the toolbar at the bottom of the editor, or you can just click and drag an image from your desktop directly into the editor. Both will upload the image for you and generate the appropriate Markdown.</p>
+
+
+
+<p><em><strong>Important Note:</strong>&nbsp;Ghost does not currently have automatic image resizing, so it’s always a good idea to make sure your images aren’t gigantic files&nbsp;<strong>before</strong>&nbsp;uploading them to Ghost.</em></p>
+
+
+
+<h2 id="makinglists">Making lists</h2>
+
+
+
+<p>Lists in HTML are a formatting nightmare, but in Markdown they become an absolute breeze with just a couple of characters and a bit of smart automation. For numbered lists, just write out the numbers. For bullet lists, just use&nbsp;<code>*</code>&nbsp;or&nbsp;<code>-</code>&nbsp;or&nbsp;<code>+</code>. Like this:</p>
+
+
+
+<ol><li>Crack the eggs over a bowl</li><li>Whisk them together</li><li>Make an omelette</li></ol>
+
+
+
+<p>or</p>
+
+
+
+<ul><li>Remember to buy milk</li><li>Feed the cat</li><li>Come up with idea for next story</li></ul>
+
+
+
+<h2 id="addingquotes">Adding quotes</h2>
+
+
+
+<p>When you want to pull out a particularly good excerpt in the middle of a piece, you can use&nbsp;<code>&gt;</code>&nbsp;at the beginning of a paragraph to turn it into a Blockquote. You might’ve seen this formatting before in email clients.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>A well placed quote guides a reader through a story, helping them to understand the most important points being made</p></blockquote>
+
+
+
+<p>All themes handles blockquotes slightly differently. Sometimes they’ll look better kept shorter, while other times you can quote fairly hefty amounts of text and get away with it. Generally, the safest option is to use blockquotes sparingly.</p>
+
+
+
+<h2 id="dividingthingsup">Dividing things up</h2>
+
+
+
+<p>If you’re writing a piece in parts and you just feel like you need to divide a couple of sections distinctly from each other, a horizontal rule might be just what you need. Dropping&nbsp;<code>---</code>&nbsp;on a new line will create a sleek divider, anywhere you want it.</p>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p>This should get you going with the vast majority of what you need to do in the editor, but if you’re still curious about more advanced tips then check out the&nbsp;<a href="https://peony.themeix.com/advanced-markdown/">Advanced Markdown Guide</a>&nbsp;– or if you’d rather learn about how Ghost taxononomies work, we’ve got a overview of&nbsp;<a href="https://peony.themeix.com/using-tags/">how to use Ghost tags</a>.</p>
+				]]></content:encoded>
+					
+					<wfw:commentRss>https://wp-doxy.themeix.com/endangered-leatherback-sea-turtle-spotted-off-b-c-coast/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bestdemestic Annoc ETC Discover</title>
+		<link>https://wp-doxy.themeix.com/bestdemestic-annoc-etc-discover/</link>
+					<comments>https://wp-doxy.themeix.com/bestdemestic-annoc-etc-discover/#respond</comments>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Wed, 20 Mar 2019 09:41:15 +0000</pubDate>
+				<category><![CDATA[Travel]]></category>
+		<category><![CDATA[Trending]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://doxy-wp.themeix.com/?p=841</guid>
+
+					<description><![CDATA[
+				
+				Welcome, it's great to have you here. We know that first impressions are important, so we've populated your new site with some initial getting startedposts that will help you get familiar				]]></description>
+										<content:encoded><![CDATA[
+				
+				
+<p> Welcome, it&#8217;s great to have you here.</p>
+
+
+
+<p>We know that first impressions are important, so we&#8217;ve populated your new site with some initial&nbsp;<strong>getting started</strong>posts that will help you get familiar with everything in no time. This is the first one!</p>
+
+
+
+<p><strong>A few things you should know upfront</strong>:</p>
+
+
+
+<ol><li>Ghost is designed for ambitious, professional publishers who want to actively build a business around their content. That&#8217;s who it works best for.</li><li>The entire platform can be modified and customised to suit your needs. It&#8217;s very powerful, but does require some knowledge of code. Ghost is not necessarily a good platform for beginners or people who just want a simple personal blog.</li><li>For the best experience we recommend downloading the&nbsp;<a href="https://ghost.org/downloads/">Ghost Desktop App</a>&nbsp;for your computer, which is the best way to access your Ghost site on a desktop device.</li></ol>
+
+
+
+<p>Ghost is made by an independent non-profit organisation called the Ghost Foundation. We are 100% self funded by revenue from our&nbsp;<a href="https://ghost.org/pricing">Ghost(Pro)</a>&nbsp;service, and every penny we make is re-invested into funding further development of free, open source technology for modern publishing.</p>
+
+
+
+<p>The version of Ghost you are looking at right now would not have been made possible without generous contributions from the open source&nbsp;<a href="https://github.com/TryGhost">community</a>.</p>
+
+
+
+<h2 id="next-up-the-editor">Next up, the editor</h2>
+
+
+
+<p>The main thing you&#8217;ll want to read about next is probably:&nbsp;<a href="https://axotic.themeix.com/the-editor/">the Ghost editor</a>. This is where the good stuff happens.</p>
+
+
+
+<blockquote class="wp-block-quote"><p><em>By the way, once you&#8217;re done reading, you can simply delete the default&nbsp;<strong>Ghost</strong>&nbsp;user from your team to remove all of these introductory posts!</em></p></blockquote>
+				]]></content:encoded>
+					
+					<wfw:commentRss>https://wp-doxy.themeix.com/bestdemestic-annoc-etc-discover/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

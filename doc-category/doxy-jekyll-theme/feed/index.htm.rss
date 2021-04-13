@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Doxy Jekyll Theme &#8211; Doxy</title>
+	<atom:link href="https://wp-doxy.themeix.com/doc-category/doxy-jekyll-theme/feed/" rel="self" type="application/rss+xml" />
+	<link>https://wp-doxy.themeix.com</link>
+	<description>A multipurpose WordPress theme</description>
+	<lastBuildDate>Thu, 13 Jun 2019 06:56:08 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6.2</generator>
+	<item>
+		<title>Doxy Jekyll Changelog</title>
+		<link>https://wp-doxy.themeix.com/docs/doxy-jekyll-changelog/</link>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Thu, 13 Jun 2019 06:56:08 +0000</pubDate>
+				<guid isPermaLink="false">https://doxy-wp.themeix.com/?post_type=docs&#038;p=2105</guid>
+
+					<description><![CDATA[Here is the details changelog of the Doxy Jekyll Template V2.0.0 (28 Mar, 2019) ** Facebook Open Graph Meta Data added in Layout ** Twitter Card Meta Data added in Layout ** Author Image Source Linking bug fixed ** Doc Page's Sidebar Menu Accordion bug Fixed V1.0.0 (13 Feb, 2019) Initial Release  Still st]]></description>
+										<content:encoded><![CDATA[<div class="entry-content">
+<p>Here is the details changelog of the Doxy Jekyll Template</p>
+<pre>V2.0.0 (28 Mar, 2019)
+
+** Facebook Open Graph Meta Data added in Layout
+** Twitter Card Meta Data added in Layout
+** Author Image Source Linking bug fixed
+** Doc Page's Sidebar Menu Accordion bug Fixed
+
+V1.0.0 (13 Feb, 2019)
+
+Initial Release
+</pre>
+</div>
+<footer class="entry-footer wedocs-entry-footer"><span class="wedocs-help-link wedocs-hide-print wedocs-hide-mobile"><i class="wedocs-icon wedocs-icon-envelope"></i> Still st</span></footer>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Writing Blog Post</title>
+		<link>https://wp-doxy.themeix.com/docs/writing-blog-post/</link>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Thu, 13 Jun 2019 06:55:33 +0000</pubDate>
+				<guid isPermaLink="false">https://doxy-wp.themeix.com/?post_type=docs&#038;p=2103</guid>
+
+					<description><![CDATA[To create a new post in Doxy Jekyll Theme blog area, you should create a new markdown (.md) file inside the _posts directory or folder.  Here following a post example with different configurations for a blog post page. --- layout: post title: "Blog Post Title" date: 2019-02-15 18:51:30 +0600 tags: [jekyll, update] post_image: https://placehold.it/500x600 comment: [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>				To create a new post in Doxy Jekyll Theme blog area, you should create a new markdown (.md) file inside the _posts directory or folder.  Here following a post example with different configurations for a blog post page.</p>
+<div id="gist94366798" class="gist">
+<div class="gist-file">
+<div class="gist-data">
+<div class="js-gist-file-update-container js-task-list-container file-box">
+<div id="file-2019-02-15-welcome-to-jekyll-md" class="file">
+<div id="file-2019-02-15-welcome-to-jekyll-md-readme" class="Box-body readme blob instapaper_body js-code-block-container">
+<article class="markdown-body entry-content p-5">
+<pre><code>---
+layout: post
+title:  "Blog Post Title"
+date:   2019-02-15 18:51:30 +0600
+tags: [jekyll, update]
+post_image: https://placehold.it/500x600
+comment: true
+author_url: https://themeix.com
+author_designation: Ux/Ui Designer
+author_bio: Wrute bio for post author
+---
+</code></pre>
+</article>
+</div>
+</div>
+</div>
+</div>
+<div class="gist-meta"><a href="https://gist.github.com/themeix/01722b35478240251efa8be45179afe4/raw/1cbf474d15a68da65050b612db3ac20653d1ac84/2019-02-15-welcome-to-jekyll.md">view raw</a><a href="https://gist.github.com/themeix/01722b35478240251efa8be45179afe4#file-2019-02-15-welcome-to-jekyll-md">2019-02-15-welcome-to-jekyll.md</a> hosted with <img src="https://s.w.org/images/core/emoji/13.0.1/72x72/2764.png" alt="❤" class="wp-smiley" style="height: 1em; max-height: 1em;" /> by <a href="https://github.com/">GitHub</a></div>
+</div>
+</div>
+<h4>Change Post Sidebar Position</h4>
+<p>You can easily change your sidebar position from the post layout option.</p>
+<p><img loading="lazy" class="aligncenter wp-image-6929 size-full" src="https://themeix.com/wp-content/uploads/post-left-sidebar-e1548916781888.png" alt="" width="897" height="307" /></p>
+<p>There are 2 post layout available in that theme. Use <strong>post_left</strong> for left sidebar and use only <strong>post</strong> for right sidebar layout		</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Theme Layouts</title>
+		<link>https://wp-doxy.themeix.com/docs/theme-layouts/</link>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Thu, 13 Jun 2019 06:54:49 +0000</pubDate>
+				<guid isPermaLink="false">https://doxy-wp.themeix.com/?post_type=docs&#038;p=2101</guid>
+
+					<description><![CDATA[This theme comes with 8 different layouts and styles for the inner pages. default.html doc.html doc_full.html doc_right.html page.html post.html post_left.html tag_page.html For the doc page you will find 3 different layout where you can change the sidebar position left to right and also you can rid the sidebar completely from doc pages. There have 2 [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>				This theme comes with 8 different layouts and styles for the inner pages.</p>
+<ul>
+<li>default.html</li>
+<li>doc.html</li>
+<li>doc_full.html</li>
+<li>doc_right.html</li>
+<li>page.html</li>
+<li>post.html</li>
+<li>post_left.html</li>
+<li>tag_page.html</li>
+</ul>
+<p>For the doc page you will find 3 different layout where you can change the sidebar position left to right and also you can rid the sidebar completely from doc pages. There have 2 differents sidbear position layout for blog post.		</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Deployment</title>
+		<link>https://wp-doxy.themeix.com/docs/deployment/</link>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Thu, 13 Jun 2019 06:50:23 +0000</pubDate>
+				<guid isPermaLink="false">https://doxy-wp.themeix.com/?post_type=docs&#038;p=2099</guid>
+
+					<description><![CDATA[To run our the jekyll theme locally, navigate to the theme directory from your PC and run bundle install command in git client app. to install the dependencies, then run bundle exec jekyll serve to start the Jekyll server. Here following some good resources to deploy jekyll : Manual Deployment Automated Deployment (Example: Travis CI, Circle CI, Buddy etc) 3rd [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>				To run our the jekyll theme locally, navigate to the theme directory from your PC and run <code>bundle install</code> command in git client app. to install the dependencies, then run <code>bundle exec jekyll serve</code> to start the Jekyll server.</p>
+<p>Here following some good resources to deploy jekyll :</p>
+<ul>
+<li><a href="https://jekyllrb.com/docs/deployment/manual/" target="_blank">Manual Deployment</a></li>
+<li><a href="https://jekyllrb.com/docs/deployment/automated/" target="_blank">Automated Deployment</a> (Example: Travis CI, Circle CI, Buddy etc)</li>
+<li><a href="https://jekyllrb.com/docs/deployment/third-party/" target="_blank">3rd Party Deployment </a> (Example : Aerobatic, CloudCannon, Github Pages, Kickster, Netlify, Static Publisher)</li>
+</ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Doxy Configurations &#038; Settings</title>
+		<link>https://wp-doxy.themeix.com/docs/doxy-configurations-settings/</link>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Thu, 13 Jun 2019 06:49:26 +0000</pubDate>
+				<guid isPermaLink="false">https://doxy-wp.themeix.com/?post_type=docs&#038;p=2097</guid>
+
+					<description><![CDATA[Doxy themes comes with various customizations in the _config.yml file]]></description>
+										<content:encoded><![CDATA[<p>				Doxy themes comes with various customizations in the <code>_config.yml</code> file</p>
+<p><script src="https://gist.github.com/themeix/0a551ef6aed7c9f4ef5b78cf8d0adfcf.js"></script>		</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Doxy Jekyll Introduction</title>
+		<link>https://wp-doxy.themeix.com/docs/doxy-jekyll-introduction/</link>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Wed, 20 Mar 2019 08:25:45 +0000</pubDate>
+				<guid isPermaLink="false">http://doxy-wp.themeix.com/?post_type=docs&#038;p=828</guid>
+
+					<description><![CDATA[Doxy Jekyll is a multipurpose Jekyll theme to create an outstanding documentation website or support portal.  You will get a clean, polished and modern website with Doxy Jekyll Theme. It’s a ready website template for your support portal solution. Doxy Jekyll built with  Jekyll Static Site Generator Framework. This theme as all necessary features for [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>				Doxy Jekyll is a multipurpose Jekyll theme to create an outstanding documentation website or support portal.  You will get a clean, polished and modern website with Doxy Jekyll Theme. It’s a ready website template for your support portal solution.</p>
+<p><img loading="lazy" class="aligncenter wp-image-6871 size-full" src="https://themeix.com/wp-content/uploads/doxy-jekyll-theme-introduction.png" alt="Doxy Jekyll Introduction" width="700" height="408" /></p>
+<p>Doxy Jekyll built with  Jekyll Static Site Generator Framework. This theme as all necessary features for a support portal website. You will get tons of features and pages in that theme.  This theme has working Submit Ticket, Contact Form and Automatic Dorp Down menu features.		</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

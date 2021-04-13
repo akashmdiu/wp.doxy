@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>docs &#8211; Doxy</title>
+	<atom:link href="https://wp-doxy.themeix.com/docs/feed/" rel="self" type="application/rss+xml" />
+	<link>https://wp-doxy.themeix.com</link>
+	<description>A multipurpose WordPress theme</description>
+	<lastBuildDate>Tue, 05 May 2020 05:20:54 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6.2</generator>
+	<item>
+		<title>This is test</title>
+		<link>https://wp-doxy.themeix.com/docs/this-is-test/</link>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Tue, 05 May 2020 04:48:16 +0000</pubDate>
+				<guid isPermaLink="false">https://wp-doxy.themeix.com/?post_type=docs&#038;p=2353</guid>
+
+					<description><![CDATA[Hello]]></description>
+										<content:encoded><![CDATA[<p>Hello</p>
+<p><iframe src="https://www.youtube.com/embed/ULQ7kjrDx7Q" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>6. Campagnes</title>
+		<link>https://wp-doxy.themeix.com/docs/6-campagnes/</link>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Mon, 04 May 2020 09:54:13 +0000</pubDate>
+				<guid isPermaLink="false">https://wp-doxy.themeix.com/?post_type=docs&#038;p=2351</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Mingo WordPress Theme</title>
+		<link>https://wp-doxy.themeix.com/docs/mingo-wordpress-theme/</link>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Wed, 18 Dec 2019 18:22:24 +0000</pubDate>
+				<guid isPermaLink="false">https://wp-doxy.themeix.com/?post_type=docs&#038;p=2240</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Axiohost WordPress Theme</title>
+		<link>https://wp-doxy.themeix.com/docs/axiohost-wordpress-theme/</link>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Wed, 18 Dec 2019 18:13:16 +0000</pubDate>
+				<guid isPermaLink="false">https://wp-doxy.themeix.com/?post_type=docs&#038;p=2238</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Churel Jekyll Theme</title>
+		<link>https://wp-doxy.themeix.com/docs/churel-jekyll-theme/</link>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Sat, 12 Oct 2019 06:02:44 +0000</pubDate>
+				<guid isPermaLink="false">http://doxy.designingmarket.com/wp/?post_type=docs&#038;p=2155</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Sinju HTML Changelog</title>
+		<link>https://wp-doxy.themeix.com/docs/sinju-html-changelog/</link>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Thu, 13 Jun 2019 08:04:26 +0000</pubDate>
+				<guid isPermaLink="false">https://doxy-wp.themeix.com/?post_type=docs&#038;p=2119</guid>
+
+					<description><![CDATA[Here is the details changelog of the Sinju HTML Template. If you don’t have the latest version please download it from your account. V1.1.0 (10 June, 2019) ** Gulpfile updated ** Newsletter section added ** Responsive Improved V1.0.0 (06 June, 2019) Initial Release]]></description>
+										<content:encoded><![CDATA[<p>				Here is the details changelog of the Sinju HTML Template. If you don’t have the latest version please download it from your account.</p>
+<pre><strong>
+V1.1.0 (10 June, 2019)</strong>
+** Gulpfile updated
+** Newsletter section added
+** Responsive Improved
+
+<strong>
+V1.0.0 (06 June, 2019)</strong>
+Initial Release
+</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Editing HTML Files</title>
+		<link>https://wp-doxy.themeix.com/docs/editing-html-files/</link>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Thu, 13 Jun 2019 08:03:50 +0000</pubDate>
+				<guid isPermaLink="false">https://doxy-wp.themeix.com/?post_type=docs&#038;p=2117</guid>
+
+					<description><![CDATA[Software Required: (For HTML Edit) You can download trial (30 days free) versions by the following links Adobe Dreamweaver (or Microsoft Expression Web) http://www.adobe.com/products/dreamweaver/ or Notepad++ https://notepad-plus-plus.org/download/ or Sublime Text https://www.sublimetext.com or Visual Studio Code https://code.visualstudio.com/ Adobe Photoshop (For Graphics Editing) http://www.adobe.com/products/photoshop/photoshop/]]></description>
+										<content:encoded><![CDATA[<p>				<strong>Software Required: </strong>(For HTML Edit)<br />
+You can download trial (30 days free) versions by the following links<br />
+Adobe Dreamweaver (or Microsoft Expression Web)<br />
+<a href="http://www.adobe.com/products/dreamweaver/">http://www.adobe.com/products/dreamweaver/</a><br />
+<strong>or</strong><br />
+Notepad++<br />
+<a href="https://notepad-plus-plus.org/download/">https://notepad-plus-plus.org/download/</a><br />
+<strong>or</strong><br />
+Sublime Text<br />
+<a href="https://www.sublimetext.com/">https://www.sublimetext.com</a><br />
+<strong>or</strong><br />
+Visual Studio Code<br />
+<a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></p>
+<p><strong>Adobe Photoshop</strong> (For Graphics Editing)<br />
+<a href="http://www.adobe.com/products/photoshop/photoshop/">http://www.adobe.com/products/photoshop/photoshop/</a>		</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Pages</title>
+		<link>https://wp-doxy.themeix.com/docs/pages/</link>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Thu, 13 Jun 2019 08:03:21 +0000</pubDate>
+				<guid isPermaLink="false">https://doxy-wp.themeix.com/?post_type=docs&#038;p=2115</guid>
+
+					<description><![CDATA[There following the html files/pages list  : 404.html about.html author.html authors.html blog-details.html contact.html guide.html index.html index2.html index3.html tag.html tags.html]]></description>
+										<content:encoded><![CDATA[<p>				There following the html files/pages list  :</p>
+<ul>
+<li>
+<ul>
+<li>404.html</li>
+<li>about.html</li>
+<li>author.html</li>
+<li>authors.html</li>
+<li>blog-details.html</li>
+<li>contact.html</li>
+<li>guide.html</li>
+<li>index.html</li>
+<li>index2.html</li>
+<li>index3.html</li>
+<li>tag.html</li>
+<li>tags.html</li>
+</ul>
+</li>
+</ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to edit Sinju HTML template?</title>
+		<link>https://wp-doxy.themeix.com/docs/how-to-edit-sinju-html-template/</link>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Thu, 13 Jun 2019 08:02:39 +0000</pubDate>
+				<guid isPermaLink="false">https://doxy-wp.themeix.com/?post_type=docs&#038;p=2113</guid>
+
+					<description><![CDATA[We used Gulp, SCSS in our HTML Site template. So that is really developer friendly template. Make sure you have nodejs and git bash in your computer and then install gulp 4.x Please watch that video tutorial to know about the Sinju HTML Site template editing process with gulp. Tagstutorial, video]]></description>
+										<content:encoded><![CDATA[<p>				We used Gulp, SCSS in our HTML Site template. So that is really developer friendly template. Make sure you have nodejs and git bash in your computer and then install gulp 4.x<br />
+Please watch that video tutorial to know about the Sinju HTML Site template editing process with gulp.</p>
+<p><iframe src="https://www.youtube.com/embed/0lBc927KBYc" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen" data-mce-fragment="1"></iframe></p>
+<p><span class="tags-links"><span class="screen-reader-text">Tags</span><a href="https://themeix.com/doc-tag/tutorial/">tutorial</a>, <a href="https://themeix.com/doc-tag/video/">video</a></span>		</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Template Installation</title>
+		<link>https://wp-doxy.themeix.com/docs/template-installation/</link>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Thu, 13 Jun 2019 08:01:51 +0000</pubDate>
+				<guid isPermaLink="false">https://doxy-wp.themeix.com/?post_type=docs&#038;p=2111</guid>
+
+					<description><![CDATA[In order to make your site “live”, you need to upload specific template files from your local computer to your hosting server. FTP Upload: Open up your FTP manager and connect to your hosting Browse to required directory (Normally public_html) Upload the files inside html folder.]]></description>
+										<content:encoded><![CDATA[<p>				In order to make your site “live”, you need to upload specific template files from your local computer to your hosting server.</p>
+<p><strong>FTP Upload:</strong></p>
+<ul>
+<li>Open up your FTP manager and connect to your hosting</li>
+<li>Browse to required directory (Normally public_html)</li>
+<li>Upload the files inside <strong>html</strong> folder.</li>
+</ul>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

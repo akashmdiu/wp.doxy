@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>syntax highlight &#8211; Doxy</title>
+	<atom:link href="https://wp-doxy.themeix.com/question/tag/syntax-highlight/feed/" rel="self" type="application/rss+xml" />
+	<link>https://wp-doxy.themeix.com</link>
+	<description>A multipurpose WordPress theme</description>
+	<lastBuildDate>Sun, 21 Apr 2019 02:30:44 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6.2</generator>
+	<item>
+		<title>Wait multiple observable requests to finish using RXSwift</title>
+		<link>https://wp-doxy.themeix.com/question/pandas-groupby-mean-of-only-positive-values-2/</link>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Sun, 21 Apr 2019 02:30:44 +0000</pubDate>
+				<guid isPermaLink="false">http://doxy-tester.designingmarket.com/question/pandas-groupby-mean-of-only-positive-values-2/</guid>
+
+					<description><![CDATA[have a list of observables that are requests for google distance and duration info from an specific point. I&#8217;m trying to load my screen only when all this information is fetched, but my subscribe on next for those observables are never called (the line &#8220;observer.onNext(viewModel)&#8221; is called and has the information already fetched, only the [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>have a list of observables that are requests for google distance and duration info from an specific point. I&#8217;m trying to load my screen only when all this information is fetched, but my subscribe on next for those observables are never called (the line &#8220;observer.onNext(viewModel)&#8221; is called and has the information already fetched, only the subscribe(onNext) is not being called). How can I wait til those observables complete?</p>
+<pre><code class="language-javascript">
+func stationInfoObservable(userLocation: CLLocationCoordinate2D, stations: [Station]) -> [Observable<GasStationTableCellViewModel>] {
+
+    var observables: [Observable<GasStationTableCellViewModel>] = []
+
+    for station in stations {
+        observables.append(Observable.create({ observer in
+            guard let toCoordinate = station.coordinate() else { return Disposables.create() }
+
+            self.mapDirections.routes(from: userLocation.asPlace(), to: toCoordinate.asPlace()) { routes, error in
+                if let error = error {
+                    logger.error(error)
+                } else {
+                    guard let leg = routes.first?.legs?.first else {
+                        return
+                    }
+
+                    guard let distance = leg.distance?.text, let duration = leg.duration?.text else { return }
+                    station.distanceInKMFromUserLocation = distance
+                    station.distanceInMinutesFromUserLocation = duration
+
+                    let viewModel = GasStationTableCellViewModel(station: station)
+
+                    observer.onNext(viewModel)
+                    observer.onCompleted()
+                }
+            }
+            return Disposables.create()
+        }))
+    }
+
+    return observables
+}
+</code></pre>
+<p>I&#8217;m trying to subscribe this way (EDIT: I&#8217;m now trying to use zip, but the the drive / subscribe continues not being called):</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>How to fix w3 validation error</title>
+		<link>https://wp-doxy.themeix.com/question/how-to-fix-w3-validation-error/</link>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Sat, 20 Apr 2019 09:57:52 +0000</pubDate>
+				<guid isPermaLink="false">http://doxy-tester.designingmarket.com/question/how-to-fix-w3-validation-error/</guid>
+
+					<description><![CDATA[When you write a post, you can assign tags to help differentiate between categories of content. For example, you might tag some posts with News and other posts with Cycling, which would create two distinct categories of content listed &#60;ul id="navigation-menu" class="slimmenu"&#62; &#60;li class="has-submenu"&#62;&#60;a href="index.html"&#62;Home&#60;/a&#62; &#60;ul&#62; &#60;li&#62;&#60;a href="index.html"&#62;Home 1&#60;/a&#62;&#60;/li&#62; &#60;li&#62;&#60;a href="index2.html"&#62;Home 2&#60;/a&#62;&#60;/li&#62; &#60;/ul&#62; &#60;/li&#62; &#60;li&#62;&#60;a href="about.html"&#62;About&#60;/a&#62;&#60;/li&#62; &#60;li class="has-submenu"&#62; [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>When you write a post, you can assign tags to help differentiate between categories of content. For example, you might tag some posts with <code>News</code> and other posts with <code>Cycling</code>, which would create two distinct categories of content listed</p>
+<pre><code class="language-html">
+&lt;ul id="navigation-menu" class="slimmenu"&gt;
+&lt;li class="has-submenu"&gt;&lt;a href="index.html"&gt;Home&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="index.html"&gt;Home 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="index2.html"&gt;Home 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;li&gt;&lt;a href="about.html"&gt;About&lt;/a&gt;&lt;/li&gt;
+&lt;li class="has-submenu"&gt;
+&lt;a href="#"&gt;Page&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="author.html"&gt;Author&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="authors.html"&gt;Authors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="tag.html"&gt;Tag&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="tags.html"&gt;Tags&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="404.html"&gt;404 Page&lt;/a&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="guide.html"&gt;Style Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="contact.html"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</code>
+</pre>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>

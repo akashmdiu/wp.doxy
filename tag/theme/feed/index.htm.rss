@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>theme &#8211; Doxy</title>
+	<atom:link href="https://wp-doxy.themeix.com/tag/theme/feed/" rel="self" type="application/rss+xml" />
+	<link>https://wp-doxy.themeix.com</link>
+	<description>A multipurpose WordPress theme</description>
+	<lastBuildDate>Mon, 25 Mar 2019 11:16:34 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6.2</generator>
+	<item>
+		<title>New Brunswick election campaign officially</title>
+		<link>https://wp-doxy.themeix.com/new-brunswick-election-campaign-officially/</link>
+					<comments>https://wp-doxy.themeix.com/new-brunswick-election-campaign-officially/#comments</comments>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Mon, 25 Mar 2019 11:16:34 +0000</pubDate>
+				<category><![CDATA[Trending]]></category>
+		<category><![CDATA[code]]></category>
+		<category><![CDATA[documentation]]></category>
+		<category><![CDATA[theme]]></category>
+		<guid isPermaLink="false">https://doxy-wp.themeix.com/?p=1041</guid>
+
+					<description><![CDATA[
+				
+				It doesn’t matter whether you want to call them categories, tags, boxes, or anything else. You can think of Ghost tags a lot like Gmail labels. By tagging posts with				]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1041" class="elementor elementor-1041" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-6a442c01 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6a442c01" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4246f8ba" data-id="4246f8ba" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1490c704 elementor-widget elementor-widget-text-editor" data-id="1490c704" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><!-- wp:paragraph -->
+<p>It doesn’t matter whether you want to call them categories, tags, boxes, or anything else. You can think of Ghost tags a lot like Gmail labels. By tagging posts with one or more keyword, you can organise articles into buckets of related content.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="basictagging">Basic tagging</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>When you write a post, you can assign tags to help differentiate between categories of content. For example, you might tag some posts with <code>News</code> and other posts with <code>Cycling</code>, which would create two distinct categories of content listed on <code>/tag/news/</code> and <code>/tag/cycling/</code>, respectively.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>If you tag a post with both <code>News</code> <em>and</em> <code>Cycling</code> – then it appears in both sections.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Tag archives are like dedicated home-pages for each category of content that you have. They have their own pages, their own RSS feeds, and can support their own cover images and meta data.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="theprimarytag">The primary tag</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Inside the Ghost editor, you can drag and drop tags into a specific order. The first tag in the list is always given the most importance, and some themes will only display the primary tag (the first tag in the list) by default. So you can add the most important tag which you want to show up in your theme, but also add a bunch of related tags which are less important.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>News</strong>, Cycling, Bart Stevens, Extreme Sports</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In this example, <strong>News</strong> is the primary tag which will be displayed by the theme, but the post will also still receive all the other tags, and show up in their respective archives.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="privatetags">Private tags</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Sometimes you may want to assign a post a specific tag, but you don’t necessarily want that tag appearing in the theme or creating an archive page. In Ghost, hashtags are private and can be used for special styling.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>For example, if you sometimes publish posts with video content – you might want your theme to adapt and get rid of the sidebar for these posts, to give more space for an embedded video to fill the screen. In this case, you could use private tags to tell your theme what to do.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>News</strong>, Cycling, #video</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Here, the theme would assign the post publicly displayed tags of <code>News</code>, and <code>Cycling</code> – but it would also keep a private record of the post being tagged with <code>#video</code>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In your theme, you could then look for private tags conditionally and give them special formatting:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:code -->
+<pre><code class="language-html">{{#post}}
+    {{#has tag="#video"}}
+        ...markup for a nice big video post layout...
+    {{else}}
+        ...regular markup for a post...
+    {{/has}}
+{{/post}}
+</code></pre>
+<!-- /wp:code -->
+
+<!-- wp:paragraph -->
+<p>You can find documentation for theme development techniques like this and many more over on Ghost’s extensive <a href="https://themes.ghost.org/v1.23.0/">theme documentation</a>.</p>
+<!-- /wp:paragraph --></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>https://wp-doxy.themeix.com/new-brunswick-election-campaign-officially/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

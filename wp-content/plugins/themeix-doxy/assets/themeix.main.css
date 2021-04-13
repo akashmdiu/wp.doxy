@@ -1,0 +1,10 @@
+/*Social share style*/
+ul.social-share{
+  float:left;
+  width:100%;
+}
+ul.single-share li {
+  list-style: none;
+  float: left;
+  padding: 5px;
+}

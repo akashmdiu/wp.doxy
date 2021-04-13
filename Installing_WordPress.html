@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<meta charset="utf-8" />
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P24PF4B');</script>
+<!--
+<meta property="fb:page_id" content="6427302910" />
+-->
+<link rel="dns-prefetch" href="//s.w.org" />
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//fonts.gstatic.com" />
+<link rel="dns-prefetch" href="//www.googletagmanager.com" />
+<meta name="google-site-verification" content="7VWES_-rcHBcmaQis9mSYamPfNwE03f4vyTj4pfuAw0" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Installing WordPress &laquo; WordPress Codex</title>
+<link rel="canonical" href="https://codex.wordpress.org/Installing_WordPress" />
+
+<link rel="stylesheet" href="//s.w.org/style/codex-wp4.css?3" />
+<meta name="referrer" content="always">
+
+			<link href="//s.w.org/wp-includes/css/dashicons.min.css?20181204" rel="stylesheet" type="text/css" />
+		<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600&subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" href="//s.w.org/style/wp4.css?92" />
+
+<link rel="shortcut icon" href="//s.w.org/favicon.ico?2" type="image/x-icon" />
+<script type="text/javascript" src="//s.w.org/wp-includes/js/jquery/jquery.js?v=1.11.1"></script>
+<script>document.cookie='devicePixelRatio='+((window.devicePixelRatio === undefined) ? 1 : window.devicePixelRatio)+'; path=/';</script>
+<!--[if IE]>
+    <script type="text/javascript" src="/skins/common/IEFixes.js"></script>
+    <meta http-equiv="imagetoolbar" content="no" />
+<![endif]-->
+
+<script type="text/javascript">wgBreakFrames=false;wgContentLanguage='en';</script>
+
+
+</head>
+
+
+<body id="wordpress-org" class="wporg-responsive wporg-codex">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P24PF4B" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<div id="wporg-header">
+	<div class="wrapper">
+	<h1><a href="//wordpress.org">WordPress.org</a></h1>				<div id="head-search">
+		<form action="//wordpress.org/search/do-search.php" method="get">
+			<label for="global-search" class="screen-reader-text">Search WordPress.org for:</label>
+			<input id="global-search" class="text" name="search" type="text" value="" maxlength="150" placeholder="Search WordPress.org" />
+			<button type="submit" class="button"><span class="screen-reader-text">Submit</span></button>
+		</form>
+		</div>
+				<div style="clear:both"></div>
+		<button id="mobile-menu-button" aria-expanded="false"><span class="screen-reader-text">Toggle Menu</span></button>
+		
+<nav aria-label="Main Menu">
+<ul id="wporg-header-menu">
+<li class="menu-item"><a href='//wordpress.org/showcase/' data-title='See some of the sites built on WordPress.'>Showcase</a></li>
+<li class="menu-item"><a href='//learn.wordpress.org/' data-title='Resources to help you learn more about WordPress and teach it to others.'>Learn</a></li>
+<li class="menu-item"><a href='//wordpress.org/themes/' data-title='Find just the right look for your website.'>Themes</a></li>
+<li class="menu-item"><a href='//wordpress.org/plugins/' data-title='Plugins can extend WordPress to do almost anything you can imagine.'>Plugins</a></li>
+<li class="menu-item"><a href='//wordpress.org/mobile/' data-title='Take your website on the go!'>Mobile</a></li>
+<li class="menu-item"><a href='//wordpress.org/support/' data-title='Forums, documentation, help.' aria-current="true" class="current">Support</a><ul class="nav-submenu"><li><a href='//wordpress.org/support/' title='Documentation, tutorials, best practices.'>Documentation</a></li><li><a href='//wordpress.org/support/forums/' title='Support and discussion forums.'>Forums</a></li></ul><div class="uparrow"></div></li>
+<li class="menu-item"><a href='//make.wordpress.org/' data-title='Contribute your knowledge.'>Get Involved</a><ul class="nav-submenu"><li><a href='//wordpress.org/five-for-the-future/' title='How five percent is powering the next generation of the web'>Five for the Future</a></li></ul><div class="uparrow"></div></li>
+<li class="menu-item"><a href='//wordpress.org/about/' data-title='About the WordPress Organization, and where we&#039;re going.'>About</a></li>
+<li class="menu-item"><a href='//wordpress.org/news/' data-title='Come here for the latest scoop.'>Blog</a></li>
+<li class="menu-item"><a href='//wordpress.org/hosting/' data-title='Find a home for your blog.'>Hosting</a></li>
+<li id="download" class="button download-button menu-item"><a href='//wordpress.org/download/' data-title='Get it. Got it? Good.'>Get WordPress</a></li>
+</ul>
+</nav>
+		<div style="clear:both"></div>
+	</div>
+</div>
+
+
+
+<div id="headline">
+	<div class="wrapper">
+		<h2><a href="/">Codex</a></h2>
+		
+		<div class="portlet" id="p-personal">
+		  <p class="login">Codex tools:
+		     <a href="/index.php?title=Special:UserLogin&amp;returnto=Installing+WordPress">Log in</a> 		  </p>
+		</div>
+	</div>
+</div>
+
+<div id="pagebody">
+	<div class="wrapper">	
+		<div class="col-10" id="bodyContent">
+			<div id="siteNotice"><div id="localNotice" lang="en" dir="ltr"><div style="clear:both; background-color:#e5f5fa; border-left:4px solid #00a0d2; padding:10px 12px 8px; margin:0.5em auto 1.5em auto;"><span class="dashicons dashicons-info" style="color:#00a0d2"></span> Interested in functions, hooks, classes, or methods? Check out the new <a rel="nofollow" class="external text" href="http://developer.wordpress.org/reference">WordPress Code Reference</a>!</div>
+</div></div>			<h2 class="pagetitle">Installing WordPress</h2>
+									<!-- start content -->
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p class="LanguageLinks" style="border:1px solid #CCCCCC; line-height:1.5; text-align:left; color:#333333; font-size:90%; padding:10px;"><span style="white-space:nowrap;"><a href="https://codex.wordpress.org/Multilingual_Codex" title="Multilingual Codex" class="mw-redirect">Languages</a>:</span> 
+<strong class="selflink">English</strong> • 
+<a href="https://codex.wordpress.org/es:Instalando_Wordpress" title="es:Instalando Wordpress" class="mw-redirect">Español</a> • 
+
+<a href="https://codex.wordpress.org/de:WordPress_installieren" title="de:WordPress installieren">Deutsch</a> • 
+<a href="https://codex.wordpress.org/bn:%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%A1%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%87%E0%A6%B8_%E0%A6%87%E0%A6%A8%E0%A7%8D%E0%A6%B8%E0%A6%9F%E0%A6%B2_%E0%A6%95%E0%A6%B0%E0%A6%BE" title="bn:ওয়ার্ডপ্রেস ইন্সটল করা">বাংলা</a> • 
+
+<a href="https://codex.wordpress.org/fr:Installer_WordPress" title="fr:Installer WordPress">Français</a> • 
+
+<a href="https://codex.wordpress.org/it:Installare_WordPress" title="it:Installare WordPress">Italiano</a> • 
+
+<a href="https://codex.wordpress.org/nl:WordPress_installeren" title="nl:WordPress installeren">Nederlands</a> • 
+<a rel="nofollow" class="external text" href="https://wpdocs.osdn.jp/WordPress">のインストール 日本語</a> 
+<a href="https://codex.wordpress.org/ko:Installing_WordPress" title="ko:Installing WordPress">한국어</a> • 
+<a href="https://codex.wordpress.org/pt:Instala%C3%A7%C3%A3o_do_WordPress" title="pt:Instalação do WordPress">Português</a> • 
+
+<a href="https://codex.wordpress.org/pt-br:Instalando_o_WordPress" title="pt-br:Instalando o WordPress">Português do Brasil</a> • 
+
+<a href="https://codex.wordpress.org/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0_WordPress" title="Установка WordPress">Русский</a> • 
+
+<a href="https://codex.wordpress.org/sk:In%C5%A1tal%C3%A1cia_WordPress" title="sk:Inštalácia WordPress">Slovenčina</a> • 
+<a href="https://codex.wordpress.org/sr:%D0%98%D0%BD%D1%81%D1%82%D0%B0%D0%BB%D0%B0%D1%86%D0%B8%D1%98%D0%B0_%D0%92%D0%BE%D1%80%D0%B4%D0%BF%D1%80%D0%B5%D1%81%D0%B0" title="sr:Инсталација Вордпреса">Српски</a> • 
+
+<a rel="nofollow" class="external text" href="http://codex.wordthai.com/Installing+WordPress">ไทย</a> • 
+
+<a href="https://codex.wordpress.org/zh-cn:%E5%AE%89%E8%A3%85_WordPress" title="zh-cn:安装 WordPress">中文(简体)</a> • 
+<a href="https://codex.wordpress.org/zh-tw:%E5%AE%89%E8%A3%9DWordPress" title="zh-tw:安裝WordPress">中文(繁體)</a> • 
+ <small>(<a href="https://codex.wordpress.org/Multilingual_Codex#Language_Cross_Reference" title="Multilingual Codex" class="mw-redirect">Add your language</a>)</small>
+</p>
+<p>This page was moved to <a rel="nofollow" class="external free" href="https://wordpress.org/support/article/how-to-install-wordpress/">https://wordpress.org/support/article/how-to-install-wordpress/</a> except above language locator.
+</p>
+<!-- 
+NewPP limit report
+Cached time: 20210122073245
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.020 seconds
+Real time usage: 0.030 seconds
+Preprocessor visited node count: 110/1000000
+Preprocessor generated node count: 936/1000000
+Post‐expand include size: 2100/2097152 bytes
+Template argument size: 1326/2097152 bytes
+Highest expansion depth: 4/40
+Expensive parser function count: 0/100
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   21.461      1 - -total
+100.00%   21.461      1 - Template:Languages
+  8.27%    1.774      1 - Template:bn
+  8.11%    1.741      1 - Template:es
+  7.09%    1.522      1 - Template:sr
+  6.08%    1.306      1 - Template:th
+  5.52%    1.184      1 - Template:sk
+  5.50%    1.181      1 - Template:nl
+  4.66%    1.001      1 - Template:ja
+  4.58%    0.982      1 - Template:ru
+-->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://codex.wordpress.org/index.php?title=Installing_WordPress&amp;oldid=170002">https://codex.wordpress.org/index.php?title=Installing_WordPress&amp;oldid=170002</a>"</div>
+				<div id="catlinks"><div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div></div>			<!-- end content -->
+		</div>
+		<div class="col-2">
+			
+						
+			<ul class="submenu">
+				<li id="n-mainpage"><a href="/Main_Page">Home Page</a></li>	
+				<li><a href="/WordPress_Lessons">WordPress Lessons</a></li>
+				<li><a href="/Getting_Started_with_WordPress">Getting Started</a></li>
+				<li><a href="/Working_with_WordPress">Working with WordPress</a></li>
+				<li><a href="/Blog_Design_and_Layout">Design and Layout</a></li>
+				<li><a href="/Advanced_Topics">Advanced Topics</a></li>
+				<li><a href="/Troubleshooting">Troubleshooting</a></li>
+				<li><a href="/Developer_Documentation">Developer Docs</a></li>
+				<li><a href="/About_WordPress">About WordPress</a></li>
+			</ul>
+
+			<h3>Codex Resources</h3>
+			<ul class="submenu">
+				<li id="n-portal"><a href="/Codex:Community_Portal">Community portal</a></li>	      
+				<li id="n-currentevents"><a href="/Current_events">Current events</a></li>	      
+				<li id="n-recentchanges"><a href="/Special:RecentChanges">Recent changes</a></li>	      
+				<li id="n-randompage"><a href="/Special:Random">Random page</a></li>	      
+				<li id="n-help"><a href="/Help:Contents">Help</a></li>	
+			</ul>
+			
+		</div>
+	</div>
+</div>
+
+
+<div id="wporg-footer">
+	<div class="wrapper">
+		<ul>
+			<li><a href="//wordpress.org/about/" title="An introduction to the WordPress project">About</a></li>
+			<li><a href="//wordpress.org/news/" title="News and Updates">Blog</a></li>
+			<li><a href="//wordpress.org/hosting/" title="Recommended web hosting providers">Hosting</a></li>
+			<li><a href="https://wordpressfoundation.org/donate/" title="Donate to the WordPress Foundation">Donate</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="//wordpress.org/support/" title="Forums, documentation, and other resources">Support</a></li>
+			<li><a href="//developer.wordpress.org" title="Resources for WordPress developers">Developers</a></li>
+			<li><a href="//make.wordpress.org/" title="Give back to WordPress through code, support, translation and more">Get Involved</a></li>
+			<li><a href="//learn.wordpress.org/" title="Workshops and training materials">Learn</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="//wordpress.org/showcase/" title="Some of the best WordPress sites on the Web">Showcase</a></li>
+			<li><a href="//wordpress.org/plugins/" title="Add extra functionality to WordPress">Plugins</a></li>
+			<li><a href="//wordpress.org/themes/" title="Make your WordPress pretty">Themes</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="//central.wordcamp.org/" title="Find a WordPress event near you">WordCamp</a></li>
+			<li><a href="//wordpress.tv/" title="Videos, tutorials, and WordCamp sessions">WordPress.TV</a></li>
+			<li><a href="//buddypress.org/" title="A set of plugins to transform your WordPress into a social network">BuddyPress</a></li>
+			<li><a href="//bbpress.org/" title="Fast, slick forums built on WordPress">bbPress</a></li>
+		</ul>
+
+		<ul>
+			<li><a href="//wordpress.com/?ref=wporg-footer" title="Hassle-free WordPress hosting">WordPress.com</a></li>
+			<li><a href="//ma.tt/" title="Co-founder of WordPress, an example of what WordPress can do">Matt</a></li>
+			<li><a href="//wordpress.org/about/privacy/" title="WordPress.org Privacy Policy">Privacy</a></li>
+			<li><a href="https://publiccode.eu/" target="_blank">Public Code</a></li>
+		</ul>
+
+		<ul>
+			<li><span class="dashicons dashicons-twitter"></span><a href="https://twitter.com/WordPress" title="Follow @WordPress on Twitter">@WordPress</a></li>
+			<li><span class="dashicons dashicons-facebook"></span><a href="https://www.facebook.com/WordPress/" title="Like WordPress on Facebook">WordPress</a></li>
+		</ul>
+	</div>
+
+		<p class="cip cip-image">Code is Poetry.</p>
+</div>
+
+<script src="https://s.w.org/style/js/navigation.min.js?20190128"></script>
+
+</body>
+<!-- Cached 20210122073245 -->
+</html>

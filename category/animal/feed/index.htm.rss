@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Animal &#8211; Doxy</title>
+	<atom:link href="https://wp-doxy.themeix.com/category/animal/feed/" rel="self" type="application/rss+xml" />
+	<link>https://wp-doxy.themeix.com</link>
+	<description>A multipurpose WordPress theme</description>
+	<lastBuildDate>Mon, 18 Mar 2019 03:36:42 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6.2</generator>
+	<item>
+		<title>Reiciendis facilisi, nostra primis, diam debitis enim</title>
+		<link>https://wp-doxy.themeix.com/reiciendis-facilisi-nostra-primis-diam-debitis-enim/</link>
+					<comments>https://wp-doxy.themeix.com/reiciendis-facilisi-nostra-primis-diam-debitis-enim/#comments</comments>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Mon, 18 Mar 2019 03:36:42 +0000</pubDate>
+				<category><![CDATA[Animal]]></category>
+		<category><![CDATA[Trending]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://doxy-wp.themeix.com/?p=805</guid>
+
+					<description><![CDATA[
+				
+				The Ghost editor has everything you need to fully optimise your content. This is where you can add tags and authors, feature a post, or turn a post into a				]]></description>
+										<content:encoded><![CDATA[
+				
+				
+<p>It doesn&#8217;t matter whether you want to call them categories, tags, boxes, or anything else. You can think of Ghost tags a lot like Gmail labels. By tagging posts with one or more keyword, you can organise articles into buckets of related content.</p>
+
+
+
+<p>Basic tagging<br>When you write a post, you can assign tags to help differentiate between categories of content. For example, you might tag some posts with News and other posts with Cycling, which would create two distinct categories of content listed on /tag/news/ and /tag/cycling/, respectively.</p>
+
+
+
+<p>If you tag a post with both News and Cycling &#8211; then it appears in both sections.</p>
+
+
+
+<p>Tag archives are like dedicated home-pages for each category of content that you have. They have their own pages, their own RSS feeds, and can support their own cover images and meta data.</p>
+
+
+
+<h3 id="the-primary-tag">The primary tag</h3>
+
+
+
+<p>Inside the Ghost editor, you can drag and drop tags into a specific order. The first tag in the list is always given the most importance, and some themes will only display the primary tag (the first tag in the list) by default. So you can add the most important tag which you want to show up in your theme, but also add a bunch of related tags which are less important.</p>
+
+
+
+<p>News, Cycling, Bart Stevens, Extreme Sports</p>
+
+
+
+<p>In this example, News is the primary tag which will be displayed by the theme, but the post will also still receive all the other tags, and show up in their respective archives.</p>
+
+
+
+<h3 id="private-tags">Private tags</h3>
+
+
+
+<p>Sometimes you may want to assign a post a specific tag, but you don&#8217;t necessarily want that tag appearing in the theme or creating an archive page. In Ghost, hashtags are private and can be used for special styling.</p>
+
+
+
+<p>For example, if you sometimes publish posts with video content &#8211; you might want your theme to adapt and get rid of the sidebar for these posts, to give more space for an embedded video to fill the screen. In this case, you could use private tags to tell your theme what to do.</p>
+
+
+
+<p>News, Cycling, #video</p>
+
+
+
+<p>Here, the theme would assign the post publicly displayed tags of News, and Cycling &#8211; but it would also keep a private record of the post being tagged with #video.</p>
+
+
+
+<p>In your theme, you could then look for private tags conditionally and give them special formatting:</p>
+				]]></content:encoded>
+					
+					<wfw:commentRss>https://wp-doxy.themeix.com/reiciendis-facilisi-nostra-primis-diam-debitis-enim/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Trending &#8211; Doxy</title>
+	<atom:link href="https://wp-doxy.themeix.com/category/trending/feed/" rel="self" type="application/rss+xml" />
+	<link>https://wp-doxy.themeix.com</link>
+	<description>A multipurpose WordPress theme</description>
+	<lastBuildDate>Mon, 25 Mar 2019 11:16:34 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6.2</generator>
+	<item>
+		<title>New Brunswick election campaign officially</title>
+		<link>https://wp-doxy.themeix.com/new-brunswick-election-campaign-officially/</link>
+					<comments>https://wp-doxy.themeix.com/new-brunswick-election-campaign-officially/#comments</comments>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Mon, 25 Mar 2019 11:16:34 +0000</pubDate>
+				<category><![CDATA[Trending]]></category>
+		<category><![CDATA[code]]></category>
+		<category><![CDATA[documentation]]></category>
+		<category><![CDATA[theme]]></category>
+		<guid isPermaLink="false">https://doxy-wp.themeix.com/?p=1041</guid>
+
+					<description><![CDATA[
+				
+				It doesn’t matter whether you want to call them categories, tags, boxes, or anything else. You can think of Ghost tags a lot like Gmail labels. By tagging posts with				]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1041" class="elementor elementor-1041" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-6a442c01 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6a442c01" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4246f8ba" data-id="4246f8ba" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1490c704 elementor-widget elementor-widget-text-editor" data-id="1490c704" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><!-- wp:paragraph -->
+<p>It doesn’t matter whether you want to call them categories, tags, boxes, or anything else. You can think of Ghost tags a lot like Gmail labels. By tagging posts with one or more keyword, you can organise articles into buckets of related content.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="basictagging">Basic tagging</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>When you write a post, you can assign tags to help differentiate between categories of content. For example, you might tag some posts with <code>News</code> and other posts with <code>Cycling</code>, which would create two distinct categories of content listed on <code>/tag/news/</code> and <code>/tag/cycling/</code>, respectively.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>If you tag a post with both <code>News</code> <em>and</em> <code>Cycling</code> – then it appears in both sections.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Tag archives are like dedicated home-pages for each category of content that you have. They have their own pages, their own RSS feeds, and can support their own cover images and meta data.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="theprimarytag">The primary tag</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Inside the Ghost editor, you can drag and drop tags into a specific order. The first tag in the list is always given the most importance, and some themes will only display the primary tag (the first tag in the list) by default. So you can add the most important tag which you want to show up in your theme, but also add a bunch of related tags which are less important.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>News</strong>, Cycling, Bart Stevens, Extreme Sports</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In this example, <strong>News</strong> is the primary tag which will be displayed by the theme, but the post will also still receive all the other tags, and show up in their respective archives.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="privatetags">Private tags</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Sometimes you may want to assign a post a specific tag, but you don’t necessarily want that tag appearing in the theme or creating an archive page. In Ghost, hashtags are private and can be used for special styling.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>For example, if you sometimes publish posts with video content – you might want your theme to adapt and get rid of the sidebar for these posts, to give more space for an embedded video to fill the screen. In this case, you could use private tags to tell your theme what to do.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>News</strong>, Cycling, #video</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Here, the theme would assign the post publicly displayed tags of <code>News</code>, and <code>Cycling</code> – but it would also keep a private record of the post being tagged with <code>#video</code>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In your theme, you could then look for private tags conditionally and give them special formatting:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:code -->
+<pre><code class="language-html">{{#post}}
+    {{#has tag="#video"}}
+        ...markup for a nice big video post layout...
+    {{else}}
+        ...regular markup for a post...
+    {{/has}}
+{{/post}}
+</code></pre>
+<!-- /wp:code -->
+
+<!-- wp:paragraph -->
+<p>You can find documentation for theme development techniques like this and many more over on Ghost’s extensive <a href="https://themes.ghost.org/v1.23.0/">theme documentation</a>.</p>
+<!-- /wp:paragraph --></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>https://wp-doxy.themeix.com/new-brunswick-election-campaign-officially/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Checking Image Formating</title>
+		<link>https://wp-doxy.themeix.com/checking-image-formating/</link>
+					<comments>https://wp-doxy.themeix.com/checking-image-formating/#respond</comments>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Wed, 20 Mar 2019 09:42:22 +0000</pubDate>
+				<category><![CDATA[sports]]></category>
+		<category><![CDATA[Trending]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://doxy-wp.themeix.com/?p=844</guid>
+
+					<description><![CDATA[
+				
+				Molestie urna volutpat quaerat blandit vestibulum, illo molestiae, cumque aut? Vivamus metus minus? Nunc, optio! Diam. Ipsum autem, justo congue, non rem, dicta reprehenderit. Quibusdam vulputate neque atque officia ullam.				]]></description>
+										<content:encoded><![CDATA[
+				
+				
+<p>Molestie urna volutpat quaerat blandit vestibulum, illo molestiae, cumque aut? Vivamus metus minus? Nunc, optio! Diam. Ipsum autem, justo congue, non rem, dicta reprehenderit. Quibusdam vulputate neque atque officia ullam. Commodo quos, mus placeat dignissim sollicitudin repudiandae odio amet necessitatibus nostrum rutrum, distinctio molestias, quas, ab sed in, platea. Cras? Aspernatur fusce etiam</p>
+
+
+<p>]]></content:encoded>
+					
+					<wfw:commentRss>https://wp-doxy.themeix.com/checking-image-formating/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bestdemestic Annoc ETC Discover</title>
+		<link>https://wp-doxy.themeix.com/bestdemestic-annoc-etc-discover/</link>
+					<comments>https://wp-doxy.themeix.com/bestdemestic-annoc-etc-discover/#respond</comments>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Wed, 20 Mar 2019 09:41:15 +0000</pubDate>
+				<category><![CDATA[Travel]]></category>
+		<category><![CDATA[Trending]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://doxy-wp.themeix.com/?p=841</guid>
+
+					<description><![CDATA[
+				
+				Welcome, it's great to have you here. We know that first impressions are important, so we've populated your new site with some initial getting startedposts that will help you get familiar				]]></description>
+										<content:encoded><![CDATA[
+				
+				
+<p> Welcome, it&#8217;s great to have you here.</p>
+
+
+
+<p>We know that first impressions are important, so we&#8217;ve populated your new site with some initial&nbsp;<strong>getting started</strong>posts that will help you get familiar with everything in no time. This is the first one!</p>
+
+
+
+<p><strong>A few things you should know upfront</strong>:</p>
+
+
+
+<ol><li>Ghost is designed for ambitious, professional publishers who want to actively build a business around their content. That&#8217;s who it works best for.</li><li>The entire platform can be modified and customised to suit your needs. It&#8217;s very powerful, but does require some knowledge of code. Ghost is not necessarily a good platform for beginners or people who just want a simple personal blog.</li><li>For the best experience we recommend downloading the&nbsp;<a href="https://ghost.org/downloads/">Ghost Desktop App</a>&nbsp;for your computer, which is the best way to access your Ghost site on a desktop device.</li></ol>
+
+
+
+<p>Ghost is made by an independent non-profit organisation called the Ghost Foundation. We are 100% self funded by revenue from our&nbsp;<a href="https://ghost.org/pricing">Ghost(Pro)</a>&nbsp;service, and every penny we make is re-invested into funding further development of free, open source technology for modern publishing.</p>
+
+
+
+<p>The version of Ghost you are looking at right now would not have been made possible without generous contributions from the open source&nbsp;<a href="https://github.com/TryGhost">community</a>.</p>
+
+
+
+<h2 id="next-up-the-editor">Next up, the editor</h2>
+
+
+
+<p>The main thing you&#8217;ll want to read about next is probably:&nbsp;<a href="https://axotic.themeix.com/the-editor/">the Ghost editor</a>. This is where the good stuff happens.</p>
+
+
+
+<blockquote class="wp-block-quote"><p><em>By the way, once you&#8217;re done reading, you can simply delete the default&nbsp;<strong>Ghost</strong>&nbsp;user from your team to remove all of these introductory posts!</em></p></blockquote>
+				]]></content:encoded>
+					
+					<wfw:commentRss>https://wp-doxy.themeix.com/bestdemestic-annoc-etc-discover/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Molestie nostra consequatur. Vivamus aliqua ridiculus</title>
+		<link>https://wp-doxy.themeix.com/molestie-nostra-consequatur-vivamus-aliqua-ridiculus/</link>
+					<comments>https://wp-doxy.themeix.com/molestie-nostra-consequatur-vivamus-aliqua-ridiculus/#respond</comments>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Mon, 18 Mar 2019 03:38:04 +0000</pubDate>
+				<category><![CDATA[Trending]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Getting started]]></category>
+		<guid isPermaLink="false">http://doxy-wp.themeix.com/?p=812</guid>
+
+					<description><![CDATA[The Ghost editor has everything you need to fully optimise your content. This is where you can add tags and authors, feature a post, or turn a post into a page. Access the post settings menu in the top right hand corner of the editor.]]></description>
+										<content:encoded><![CDATA[
+				
+				
+<p>The Ghost editor has everything you need to fully optimise your content. This is where you can add tags and authors, feature a post, or turn a post into a page.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Access the post settings menu in the top right hand corner of the editor.</p></blockquote>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://wp-doxy.themeix.com/molestie-nostra-consequatur-vivamus-aliqua-ridiculus/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Reiciendis facilisi, nostra primis, diam debitis enim</title>
+		<link>https://wp-doxy.themeix.com/reiciendis-facilisi-nostra-primis-diam-debitis-enim/</link>
+					<comments>https://wp-doxy.themeix.com/reiciendis-facilisi-nostra-primis-diam-debitis-enim/#comments</comments>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Mon, 18 Mar 2019 03:36:42 +0000</pubDate>
+				<category><![CDATA[Animal]]></category>
+		<category><![CDATA[Trending]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://doxy-wp.themeix.com/?p=805</guid>
+
+					<description><![CDATA[
+				
+				The Ghost editor has everything you need to fully optimise your content. This is where you can add tags and authors, feature a post, or turn a post into a				]]></description>
+										<content:encoded><![CDATA[
+				
+				
+<p>It doesn&#8217;t matter whether you want to call them categories, tags, boxes, or anything else. You can think of Ghost tags a lot like Gmail labels. By tagging posts with one or more keyword, you can organise articles into buckets of related content.</p>
+
+
+
+<p>Basic tagging<br>When you write a post, you can assign tags to help differentiate between categories of content. For example, you might tag some posts with News and other posts with Cycling, which would create two distinct categories of content listed on /tag/news/ and /tag/cycling/, respectively.</p>
+
+
+
+<p>If you tag a post with both News and Cycling &#8211; then it appears in both sections.</p>
+
+
+
+<p>Tag archives are like dedicated home-pages for each category of content that you have. They have their own pages, their own RSS feeds, and can support their own cover images and meta data.</p>
+
+
+
+<h3 id="the-primary-tag">The primary tag</h3>
+
+
+
+<p>Inside the Ghost editor, you can drag and drop tags into a specific order. The first tag in the list is always given the most importance, and some themes will only display the primary tag (the first tag in the list) by default. So you can add the most important tag which you want to show up in your theme, but also add a bunch of related tags which are less important.</p>
+
+
+
+<p>News, Cycling, Bart Stevens, Extreme Sports</p>
+
+
+
+<p>In this example, News is the primary tag which will be displayed by the theme, but the post will also still receive all the other tags, and show up in their respective archives.</p>
+
+
+
+<h3 id="private-tags">Private tags</h3>
+
+
+
+<p>Sometimes you may want to assign a post a specific tag, but you don&#8217;t necessarily want that tag appearing in the theme or creating an archive page. In Ghost, hashtags are private and can be used for special styling.</p>
+
+
+
+<p>For example, if you sometimes publish posts with video content &#8211; you might want your theme to adapt and get rid of the sidebar for these posts, to give more space for an embedded video to fill the screen. In this case, you could use private tags to tell your theme what to do.</p>
+
+
+
+<p>News, Cycling, #video</p>
+
+
+
+<p>Here, the theme would assign the post publicly displayed tags of News, and Cycling &#8211; but it would also keep a private record of the post being tagged with #video.</p>
+
+
+
+<p>In your theme, you could then look for private tags conditionally and give them special formatting:</p>
+				]]></content:encoded>
+					
+					<wfw:commentRss>https://wp-doxy.themeix.com/reiciendis-facilisi-nostra-primis-diam-debitis-enim/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

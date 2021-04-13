@@ -1,0 +1,13 @@
+```
+---
+layout: post
+title:  "Blog Post Title"
+date:   2019-02-15 18:51:30 +0600
+tags: [jekyll, update]
+post_image: https://placehold.it/500x600
+comment: true
+author_url: https://themeix.com
+author_designation: Ux/Ui Designer
+author_bio: Wrute bio for post author
+---
+```

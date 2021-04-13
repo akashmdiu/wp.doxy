@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>documentation &#8211; Doxy</title>
+	<atom:link href="https://wp-doxy.themeix.com/tag/documentation/feed/" rel="self" type="application/rss+xml" />
+	<link>https://wp-doxy.themeix.com</link>
+	<description>A multipurpose WordPress theme</description>
+	<lastBuildDate>Mon, 25 Mar 2019 11:16:34 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6.2</generator>
+	<item>
+		<title>New Brunswick election campaign officially</title>
+		<link>https://wp-doxy.themeix.com/new-brunswick-election-campaign-officially/</link>
+					<comments>https://wp-doxy.themeix.com/new-brunswick-election-campaign-officially/#comments</comments>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Mon, 25 Mar 2019 11:16:34 +0000</pubDate>
+				<category><![CDATA[Trending]]></category>
+		<category><![CDATA[code]]></category>
+		<category><![CDATA[documentation]]></category>
+		<category><![CDATA[theme]]></category>
+		<guid isPermaLink="false">https://doxy-wp.themeix.com/?p=1041</guid>
+
+					<description><![CDATA[
+				
+				It doesn’t matter whether you want to call them categories, tags, boxes, or anything else. You can think of Ghost tags a lot like Gmail labels. By tagging posts with				]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="1041" class="elementor elementor-1041" data-elementor-settings="[]">
+						<div class="elementor-inner">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-6a442c01 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6a442c01" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4246f8ba" data-id="4246f8ba" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+						<div class="elementor-element elementor-element-1490c704 elementor-widget elementor-widget-text-editor" data-id="1490c704" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><!-- wp:paragraph -->
+<p>It doesn’t matter whether you want to call them categories, tags, boxes, or anything else. You can think of Ghost tags a lot like Gmail labels. By tagging posts with one or more keyword, you can organise articles into buckets of related content.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="basictagging">Basic tagging</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>When you write a post, you can assign tags to help differentiate between categories of content. For example, you might tag some posts with <code>News</code> and other posts with <code>Cycling</code>, which would create two distinct categories of content listed on <code>/tag/news/</code> and <code>/tag/cycling/</code>, respectively.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>If you tag a post with both <code>News</code> <em>and</em> <code>Cycling</code> – then it appears in both sections.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Tag archives are like dedicated home-pages for each category of content that you have. They have their own pages, their own RSS feeds, and can support their own cover images and meta data.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="theprimarytag">The primary tag</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Inside the Ghost editor, you can drag and drop tags into a specific order. The first tag in the list is always given the most importance, and some themes will only display the primary tag (the first tag in the list) by default. So you can add the most important tag which you want to show up in your theme, but also add a bunch of related tags which are less important.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>News</strong>, Cycling, Bart Stevens, Extreme Sports</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In this example, <strong>News</strong> is the primary tag which will be displayed by the theme, but the post will also still receive all the other tags, and show up in their respective archives.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 id="privatetags">Private tags</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Sometimes you may want to assign a post a specific tag, but you don’t necessarily want that tag appearing in the theme or creating an archive page. In Ghost, hashtags are private and can be used for special styling.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>For example, if you sometimes publish posts with video content – you might want your theme to adapt and get rid of the sidebar for these posts, to give more space for an embedded video to fill the screen. In this case, you could use private tags to tell your theme what to do.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>News</strong>, Cycling, #video</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Here, the theme would assign the post publicly displayed tags of <code>News</code>, and <code>Cycling</code> – but it would also keep a private record of the post being tagged with <code>#video</code>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In your theme, you could then look for private tags conditionally and give them special formatting:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:code -->
+<pre><code class="language-html">{{#post}}
+    {{#has tag="#video"}}
+        ...markup for a nice big video post layout...
+    {{else}}
+        ...regular markup for a post...
+    {{/has}}
+{{/post}}
+</code></pre>
+<!-- /wp:code -->
+
+<!-- wp:paragraph -->
+<p>You can find documentation for theme development techniques like this and many more over on Ghost’s extensive <a href="https://themes.ghost.org/v1.23.0/">theme documentation</a>.</p>
+<!-- /wp:paragraph --></div>
+				</div>
+				</div>
+						</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+						</div>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>https://wp-doxy.themeix.com/new-brunswick-election-campaign-officially/feed/</wfw:commentRss>
+			<slash:comments>2</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Endangered leatherback sea turtle spotted off B.C. coast</title>
+		<link>https://wp-doxy.themeix.com/endangered-leatherback-sea-turtle-spotted-off-b-c-coast/</link>
+					<comments>https://wp-doxy.themeix.com/endangered-leatherback-sea-turtle-spotted-off-b-c-coast/#comments</comments>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Mon, 25 Mar 2019 11:00:10 +0000</pubDate>
+				<category><![CDATA[Travel]]></category>
+		<category><![CDATA[documentation]]></category>
+		<guid isPermaLink="false">https://doxy-wp.themeix.com/?p=1038</guid>
+
+					<description><![CDATA[
+				
+				When you go to edit a post and see special characters and colours intertwined between the words, those are Markdown shortcuts which tell Ghost what to do with the words				]]></description>
+										<content:encoded><![CDATA[
+				
+				
+<p class="has-drop-cap">When you go to edit a post and see special characters and colours intertwined between the words, those are Markdown shortcuts which tell Ghost what to do with the words in your document. The biggest benefit of Markdown is that you can quickly apply formatting as you type, without needing to pause.</p>
+
+
+
+<p>At the bottom of the editor, you’ll find a toolbar with basic formatting options to help you get started as easily as possible. You’ll also notice that there’s a&nbsp;<strong>?</strong>&nbsp;icon, which contains more advanced shortcuts.</p>
+
+
+
+<p>For now, though, let’s run you through some of the basics. You’ll want to make sure you’re editing this post in order to see all the Markdown we’ve used.</p>
+
+
+
+<h2 id="formattingtext">Formatting text</h2>
+
+
+
+<p>The most common shortcuts are of course,&nbsp;<strong>bold</strong>&nbsp;text,&nbsp;<em>italic</em>&nbsp;text, and&nbsp;<a href="https://example.com/">hyperlinks</a>. These generally make up the bulk of any document. You can type the characters out, but you can also use keyboard shortcuts.</p>
+
+
+
+<ul><li><code>CMD/Ctrl + B</code>&nbsp;for Bold</li><li><code>CMD/Ctrl + I</code>&nbsp;for Italic</li><li><code>CMD/Ctrl + K</code>&nbsp;for a Link</li><li><code>CMD/Ctrl + H</code>&nbsp;for a Heading (Press multiple times for h2/h3/h4/etc)</li></ul>
+
+
+
+<p>With just a couple of extra characters here and there, you’re well on your way to creating a beautifully formatted story.</p>
+
+
+
+<h2 id="insertingimages">Inserting images</h2>
+
+
+
+<p>Images in Markdown look just the same as links, except they’re prefixed with an exclamation mark, like this:</p>
+
+
+
+<p><code>![Image description](/path/to/image.jpg)</code></p>
+
+
+
+<figure class="wp-block-image"><img src="https://casper.ghost.org/v1.0.0/images/computer.jpg" alt="Computer"/></figure>
+
+
+
+<p>Most Markdown editors don’t make you type this out, though. In Ghost you can click on the image icon in the toolbar at the bottom of the editor, or you can just click and drag an image from your desktop directly into the editor. Both will upload the image for you and generate the appropriate Markdown.</p>
+
+
+
+<p><em><strong>Important Note:</strong>&nbsp;Ghost does not currently have automatic image resizing, so it’s always a good idea to make sure your images aren’t gigantic files&nbsp;<strong>before</strong>&nbsp;uploading them to Ghost.</em></p>
+
+
+
+<h2 id="makinglists">Making lists</h2>
+
+
+
+<p>Lists in HTML are a formatting nightmare, but in Markdown they become an absolute breeze with just a couple of characters and a bit of smart automation. For numbered lists, just write out the numbers. For bullet lists, just use&nbsp;<code>*</code>&nbsp;or&nbsp;<code>-</code>&nbsp;or&nbsp;<code>+</code>. Like this:</p>
+
+
+
+<ol><li>Crack the eggs over a bowl</li><li>Whisk them together</li><li>Make an omelette</li></ol>
+
+
+
+<p>or</p>
+
+
+
+<ul><li>Remember to buy milk</li><li>Feed the cat</li><li>Come up with idea for next story</li></ul>
+
+
+
+<h2 id="addingquotes">Adding quotes</h2>
+
+
+
+<p>When you want to pull out a particularly good excerpt in the middle of a piece, you can use&nbsp;<code>&gt;</code>&nbsp;at the beginning of a paragraph to turn it into a Blockquote. You might’ve seen this formatting before in email clients.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>A well placed quote guides a reader through a story, helping them to understand the most important points being made</p></blockquote>
+
+
+
+<p>All themes handles blockquotes slightly differently. Sometimes they’ll look better kept shorter, while other times you can quote fairly hefty amounts of text and get away with it. Generally, the safest option is to use blockquotes sparingly.</p>
+
+
+
+<h2 id="dividingthingsup">Dividing things up</h2>
+
+
+
+<p>If you’re writing a piece in parts and you just feel like you need to divide a couple of sections distinctly from each other, a horizontal rule might be just what you need. Dropping&nbsp;<code>---</code>&nbsp;on a new line will create a sleek divider, anywhere you want it.</p>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p>This should get you going with the vast majority of what you need to do in the editor, but if you’re still curious about more advanced tips then check out the&nbsp;<a href="https://peony.themeix.com/advanced-markdown/">Advanced Markdown Guide</a>&nbsp;– or if you’d rather learn about how Ghost taxononomies work, we’ve got a overview of&nbsp;<a href="https://peony.themeix.com/using-tags/">how to use Ghost tags</a>.</p>
+				]]></content:encoded>
+					
+					<wfw:commentRss>https://wp-doxy.themeix.com/endangered-leatherback-sea-turtle-spotted-off-b-c-coast/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Two calgarians among four dead</title>
+		<link>https://wp-doxy.themeix.com/two-calgarians-among-four-dead/</link>
+					<comments>https://wp-doxy.themeix.com/two-calgarians-among-four-dead/#respond</comments>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Mon, 25 Mar 2019 10:58:25 +0000</pubDate>
+				<category><![CDATA[Computer]]></category>
+		<category><![CDATA[documentation]]></category>
+		<category><![CDATA[Trending]]></category>
+		<guid isPermaLink="false">https://doxy-wp.themeix.com/?p=1032</guid>
+
+					<description><![CDATA[
+				
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Platea dictumst quisque sagittis purus sit. Mattis enim ut tellus elementum.				]]></description>
+										<content:encoded><![CDATA[
+				
+				
+<p class="has-drop-cap">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Platea dictumst quisque sagittis purus sit. Mattis enim ut tellus elementum. Sed faucibus turpis in eu mi bibendum. Sed felis eget velit aliquet sagittis id consectetur purus ut. Et egestas quis ipsum suspendisse ultrices gravida. Duis at consectetur lorem donec massa sapien. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Nisl condimentum id venenatis a. Adipiscing vitae proin sagittis nisl rhoncus. Fames ac turpis egestas integer eget aliquet nibh praesent tristique. Bibendum ut tristique et egestas quis ipsum suspendisse ultrices. Scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt.</p>
+
+
+
+<p>Ut faucibus pulvinar elementum integer. Risus feugiat in ante metus dictum at tempor commodo ullamcorper. Nibh ipsum consequat nisl vel pretium. Fames ac turpis egestas integer. Nisl nunc mi ipsum faucibus vitae aliquet nec. Arcu dui vivamus arcu felis bibendum ut tristique et. Sagittis purus sit amet volutpat consequat mauris nunc congue. Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis. Arcu cursus euismod quis viverra nibh. Amet mattis vulputate enim nulla aliquet. Vulputate odio ut enim blandit volutpat. Vestibulum mattis ullamcorper velit sed. Tortor vitae purus faucibus ornare.</p>
+
+
+
+<h4 id="pellentesquenecnamaliquamsem">Pellentesque nec nam aliquam sem</h4>
+
+
+
+<p>Cursus euismod quis viverra nibh cras. Potenti nullam ac tortor vitae. Pellentesque nec nam aliquam sem et tortor consequat id. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et. Egestas dui id ornare arcu odio ut. Quam nulla porttitor massa id neque aliquam vestibulum morbi. Faucibus nisl tincidunt eget nullam. Viverra nibh cras pulvinar mattis nunc sed. Quis auctor elit sed vulputate. In nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. Maecenas volutpat blandit aliquam etiam erat. Et netus et malesuada fames ac turpis egestas sed tempus. Lacus viverra vitae congue eu consequat. Eget arcu dictum varius duis at consectetur lorem donec massa. Consequat nisl vel pretium lectus quam id leo.</p>
+
+
+
+<p>Amet venenatis urna cursus eget nunc scelerisque viverra mauris in. Varius morbi enim nunc faucibus a pellentesque sit amet. Cras tincidunt lobortis feugiat vivamus. Auctor eu augue ut lectus arcu bibendum at. Nulla porttitor massa id neque aliquam vestibulum morbi. Tincidunt nunc pulvinar sapien et. Ipsum suspendisse ultrices gravida dictum fusce. Non consectetur a erat nam at lectus urna. Arcu felis bibendum ut tristique et egestas quis ipsum. Id ornare arcu odio ut sem. Elit eget gravida cum sociis natoque.</p>
+
+
+
+<p>Amet purus gravida quis blandit turpis cursus in hac habitasse. A diam maecenas sed enim. Duis at tellus at urna condimentum mattis pellentesque id nibh. Sagittis aliquam malesuada bibendum arcu vitae. Sit amet luctus venenatis lectus magna fringilla. Amet volutpat consequat mauris nunc congue nisi vitae. Ut aliquam purus sit amet luctus venenatis lectus magna fringilla. Neque sodales ut etiam sit amet. At consectetur lorem donec massa sapien faucibus et. Ut ornare lectus sit amet est placerat in egestas.</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. Ante in nibh mauris cursus mattis molestie a iaculis. Est ultricies integer quis auctor elit sed vulputate mi sit. Maecenas pharetra convallis posuere morbi leo urna.</p></blockquote>
+
+
+
+<p>Est lorem ipsum dolor sit. Nunc pulvinar sapien et ligula ullamcorper malesuada proin. Eu augue ut lectus arcu bibendum. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum. At quis risus sed vulputate odio ut enim blandit volutpat. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Odio euismod lacinia at quis risus sed vulputate odio ut. Adipiscing elit ut aliquam purus sit. Tristique senectus et netus et malesuada fames ac turpis. Ornare lectus sit amet est. Mauris augue neque gravida in fermentum et sollicitudin ac. Aliquam sem et tortor consequat id porta. Fusce ut placerat orci nulla pellentesque. At imperdiet dui accumsan sit amet. Luctus accumsan tortor posuere ac ut. Justo donec enim diam vulputate ut pharetra sit amet aliquam. Sed egestas egestas fringilla phasellus faucibus scelerisque. Cras pulvinar mattis nunc sed. Euismod elementum nisi quis eleifend quam adipiscing vitae.</p>
+
+
+
+<p>Eu lobortis elementum nibh tellus molestie nunc non blandit. Vitae congue mauris rhoncus aenean. Etiam tempor orci eu lobortis elementum nibh. Convallis posuere morbi leo urna molestie at elementum eu facilisis. Ut lectus arcu bibendum at varius vel. At ultrices mi tempus imperdiet nulla malesuada. Amet est placerat in egestas erat imperdiet sed. A diam sollicitudin tempor id eu. Curabitur vitae nunc sed velit dignissim sodales ut eu. Dolor purus non enim praesent elementum facilisis leo vel. Vel turpis nunc eget lorem dolor sed viverra. Risus nullam eget felis eget nunc lobortis mattis aliquam. A erat nam at lectus. Sit amet consectetur adipiscing elit ut aliquam purus sit amet. Facilisi etiam dignissim diam quis enim. Rutrum tellus pellentesque eu tincidunt tortor. Lorem ipsum dolor sit amet consectetur. Nulla aliquet enim tortor at. Suspendisse in est ante in nibh mauris. Id porta nibh venenatis cras sed felis.</p>
+				]]></content:encoded>
+					
+					<wfw:commentRss>https://wp-doxy.themeix.com/two-calgarians-among-four-dead/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,4 @@
+<script>
+  var site_url = 'http://yourblog.com';
+  var site_content_key = 'xxxxxxx';
+</script>
